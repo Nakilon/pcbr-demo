@@ -3,14 +3,13 @@ on:
     branches: [master]
     paths-ignore: [README.md]
 jobs:
-  sync:
+  main:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - timeout-minutes: 5
       run:
-        apt-get install -y ruby &&
-        gem install pcbr &&
+        sudo gem install pcbr &&
         ruby main.rb > README.md &&
         git add README.md &&
         git config --local user.email "$(git log --format='%ae' HEAD^!)" &&
