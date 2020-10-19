@@ -1,4 +1,15 @@
-### "Large Text Compression Benchmark" sorted at the same time by compression ratio, speed and memory usage
+## Image hostings
+(https://www.reddit.com/r/imguralternatives/ and https://en.wikipedia.org/wiki/List_of_image-sharing_websites)
+|points||
+|-|-
+|3|put.re, pixstash.net
+|2|imgur.com
+|0|imgchest.com
+|-1|vgy.me
+|-3|imgrock.net
+|-4|cubeupload.com
+---
+## "Large Text Compression Benchmark" sorted at the same time by compression ratio, speed and memory usage
 (https://gist.github.com/Nakilon/09fac4335b95f9617e4c82af4d9e1e7d)
 |points||
 |-|-
