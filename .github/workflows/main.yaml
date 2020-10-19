@@ -7,12 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - timeout-minutes: 5
+    - timeout-minutes: 1
       run:
         sudo gem install pcbr &&
         ruby main.rb > README.md &&
-        git add README.md &&
         git config --local user.email "$(git log --format='%ae' HEAD^!)" &&
         git config --local user.name "$(git log --format='%an' HEAD^!)" &&
-        git commit -m "[Github Action]" &&
-        git push
+        git add README.md && git commit -m "[Github Action]" && git push

@@ -1,0 +1,11 @@
+Image hostings
+https://www.reddit.com/r/imguralternatives/ and https://en.wikipedia.org/wiki/List_of_image-sharing_websites
+                max anon compr ancompr api badads albums paste thumb nsfw hot
+                +   +    +     +       +   -      +      +     +     +    +
+imgur.com       20  20   5     1       1   1      1      1     0     1    1
+vgy.me          20                     1   0      0      0
+cubeupload.com  5   0    9999  9999    0          0            1     0    1
+imgchest.com    20                     1                 1           0
+pixstash.net    100 4                                    1     1     1    1
+imgrock.net     10  10                                   0           1    0
+put.re          200 200  9999  9999    1                 0           1
