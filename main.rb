@@ -13,4 +13,3 @@ Dir.glob("*.txt").map do |filename|
   puts "---"
 end
 
-__END__
