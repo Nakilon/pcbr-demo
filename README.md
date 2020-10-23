@@ -1,3 +1,21 @@
+## Programming languages sorted by the sentiment of words people use in corresponding subreddits
+(data source can be found at https://gist.github.com/Nakilon/2d7c0540a649b4d4e7dd7cba5098486d)
+|score||
+|-|-
+|14|objectivec
+|13|lua
+|9|clojure
+|7|lisp
+|4|ruby
+|3|golang
+|1|haskell
+|0|visualbasic, swift, scala, matlab, mathematica
+|-2|rust, perl, csharp
+|-3|python, c_programming
+|-4|sql
+|-5|javascript
+|-10|php, java, cpp
+---
 ## "Large Text Compression Benchmark" sorted at the same time by compression ratio, speed and memory usage
 (https://gist.github.com/Nakilon/09fac4335b95f9617e4c82af4d9e1e7d)
 |score||
@@ -64,24 +82,6 @@
 |-67|lz5
 |-124|nakamichi
 |-145|ksc
----
-## Programming languages sorted by the sentiment of words people use in corresponding subreddits
-(data source can be found at https://gist.github.com/Nakilon/2d7c0540a649b4d4e7dd7cba5098486d)
-|score||
-|-|-
-|14|objectivec
-|13|lua
-|9|clojure
-|7|lisp
-|4|ruby
-|3|golang
-|1|haskell
-|0|visualbasic, swift, scala, matlab, mathematica
-|-2|rust, perl, csharp
-|-3|python, c_programming
-|-4|sql
-|-5|javascript
-|-10|php, java, cpp
 ---
 ## Image hosting services aka https://www.reddit.com/r/imguralternatives
 (see also https://en.wikipedia.org/wiki/List_of_image-sharing_websites)
