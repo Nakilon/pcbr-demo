@@ -88,9 +88,8 @@
 |score||
 |-|-
 |3|put.re, pixstash.net
-|2|imgur.com
-|0|imgchest.com
+|2|imgchest.com
+|1|imgur.com
 |-1|vgy.me
-|-3|imgrock.net
-|-4|cubeupload.com
+|-4|imgrock.net, cubeupload.com
 ---
