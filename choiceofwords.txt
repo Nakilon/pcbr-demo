@@ -1,0 +1,26 @@
+Programming languages sorted by the sentiment of words people use in corresponding subreddits
+data source can be found at https://gist.github.com/Nakilon/2d7c0540a649b4d4e7dd7cba5098486d
+              happy cursing
+              +     -
+c_programming 4212  947
+clojure       5863  955
+cpp           4354  1304
+csharp        4007  919
+golang        4691  1002
+haskell       4395  922
+java          4060  1170
+javascript    4513  1171
+lisp          4817  941
+lua           4615  712
+mathematica   3853  718
+matlab        3183  694
+objectivec    5071  830
+perl          4555  1140
+php           4445  1515
+python        4463  1127
+ruby          4945  1096
+rust          3993  913
+scala         5191  1387
+sql           3364  895
+swift         3889  742
+visualbasic   3083  619
