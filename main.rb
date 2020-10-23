@@ -1,6 +1,6 @@
 require "set"
 require "pcbr"
-Dir.glob("*.txt").map do |filename|
+Dir.glob("*.txt").sort.map do |filename|
   title, description, _, directions, *s = File.read(filename).split(?\n)
   puts "## #{title}\n(#{description})\n|score||\n|-|-"
   pcbr = PCBR.new
