@@ -17,7 +17,7 @@ cooked porkchop   8     12.8  64
 cooked rabbit     5     6     64
 cooked salmon     6     9.6   64
 cookie            2     0.2   64
-dired kelp        1     0.6   64
+dried kelp        1     0.6   64
 golden apple      4     9.6   64
 golden carrot     6     14.4  64
 honey bottle      6     1.2   16
