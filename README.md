@@ -1,5 +1,5 @@
 ## Programming languages sorted by the sentiment of words people use in corresponding subreddits
-(data source can be found at https://gist.github.com/Nakilon/2d7c0540a649b4d4e7dd7cba5098486d)
+(source: https://gist.github.com/Nakilon/2d7c0540a649b4d4e7dd7cba5098486d)
 |score||
 |-|-
 |14|objectivec
@@ -17,7 +17,7 @@
 |-10|php, java, cpp
 ---
 ## "Large Text Compression Benchmark" sorted at the same time by compression ratio, speed and memory usage
-(https://gist.github.com/Nakilon/09fac4335b95f9617e4c82af4d9e1e7d)
+(source: https://gist.github.com/Nakilon/09fac4335b95f9617e4c82af4d9e1e7d)
 |score||
 |-|-
 |33|GRZipII
@@ -92,4 +92,28 @@
 |1|imgur.com
 |-1|vgy.me
 |-4|imgrock.net, cubeupload.com
+---
+## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
+(status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
+|score||
+|-|-
+|34|steak, cooked porkchop
+|33|golden carrot
+|28|cooked salmon, cooked mutton
+|24|cooked chicken
+|20|pumpkin pie
+|16|golden apple
+|15|cooked rabbit, cooked cod, bread, baked potato
+|5|chorus fruit, carrot, apple
+|3|rabbit stew
+|0|spider eye, cake
+|-2|raw rabbit, raw porkchop, raw beef
+|-6|rotten flesh
+|-7|suspicious stew, mushroom stew, honey bottle, beetroot soup
+|-10|raw mutton, raw chicken, posionous potato, melon slice
+|-19|beetroot
+|-21|sweet berries, raw salmon, raw cod
+|-23|potato, dired kelp
+|-25|cookie
+|-31|tropical fish, pufferfish
 ---
