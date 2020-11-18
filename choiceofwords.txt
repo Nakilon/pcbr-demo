@@ -1,5 +1,5 @@
 Programming languages sorted by the sentiment of words people use in corresponding subreddits
-data source can be found at https://gist.github.com/Nakilon/2d7c0540a649b4d4e7dd7cba5098486d
+source: https://gist.github.com/Nakilon/2d7c0540a649b4d4e7dd7cba5098486d
               happy cursing
               +     -
 c_programming 4212  947

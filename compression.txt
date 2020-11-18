@@ -1,5 +1,5 @@
 "Large Text Compression Benchmark" sorted at the same time by compression ratio, speed and memory usage
-https://gist.github.com/Nakilon/09fac4335b95f9617e4c82af4d9e1e7d
+source: https://gist.github.com/Nakilon/09fac4335b95f9617e4c82af4d9e1e7d
                    compression, time, memory
                    -     -           -
 cmix               1     1204436.0   25738.0

@@ -1,0 +1,43 @@
+Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
+status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food
+                  food  sat   stack
+                  +     +     +
+apple             4     2.4   64
+baked potato      5     6     64
+beetroot          1     1.2   64
+beetroot soup     6     7.2   1
+bread             5     6     64
+cake              14    2.8   1
+carrot            3     3.6   64
+chorus fruit      4     2.4   64
+cooked chicken    6     7.2   64
+cooked cod        5     6     64
+cooked mutton     6     9.6   64
+cooked porkchop   8     12.8  64
+cooked rabbit     5     6     64
+cooked salmon     6     9.6   64
+cookie            2     0.2   64
+dired kelp        1     0.6   64
+golden apple      4     9.6   64
+golden carrot     6     14.4  64
+honey bottle      6     1.2   16
+melon slice       2     1.2   64
+mushroom stew     6     7.2   1
+posionous potato  2     1.2   64
+potato            1     0.6   64
+pufferfish        1     0.2   64
+pumpkin pie       8     4.8   64
+rabbit stew       10    12    1
+raw beef          3     1.8   64
+raw chicken       2     1.2   64
+raw cod           2     0.4   64
+raw mutton        2     1.2   64
+raw porkchop      3     1.8   64
+raw rabbit        3     1.8   64
+raw salmon        2     0.4   64
+rotten flesh      4     0.8   64
+spider eye        2     3.2   64
+steak             8     12.8  64
+suspicious stew   6     7.2   1
+sweet berries     2     0.4   64
+tropical fish     1     0.2   64
