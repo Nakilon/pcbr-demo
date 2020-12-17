@@ -87,11 +87,12 @@
 (see also https://en.wikipedia.org/wiki/List_of_image-sharing_websites)
 |score||
 |-|-
-|3|pixstash.net, put.re
-|2|imgchest.com
+|3|imgchest.com, pixstash.net, put.re
 |1|imgur.com
+|0|i.imghurr.com
 |-1|vgy.me
-|-4|cubeupload.com, imgrock.net
+|-4|cubeupload.com
+|-5|imgrock.net
 ---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
 (status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
