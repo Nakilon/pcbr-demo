@@ -9,3 +9,4 @@ imgchest.com    20                     1          1      1           1
 pixstash.net    100 4                                    1     1     1    1
 imgrock.net     10  10                                   0           1    0
 put.re          200 200  9999  9999    1                 0           1
+i.imghurr.com   10  10   4     4       0   0      1      1     1
