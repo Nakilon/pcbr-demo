@@ -90,8 +90,8 @@
 |5|imgchest.com
 |4|pixstash.net, put.re
 |2|imgbox.com
-|1|imgur.com, i.imghurr.com
-|-1|vgy.me
+|1|imgur.com, i.imghurr.com, x0.at
+|-2|vgy.me
 |-5|cubeupload.com, imgrock.net
 |-6|imgtaxi.com
 ---
