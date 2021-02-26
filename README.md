@@ -90,11 +90,10 @@
 |5|imgchest.com
 |3|imgbox.com
 |2|postimages.org
-|1|put.re
 |0|imgtaxi.com, imgur.com, lensdump.com, pixstash.net, x0.at
 |-1|imgrock.net
-|-2|cubeupload.com, vgy.me
-|-3|i.imghurr.com, imgopct.com
+|-2|cubeupload.com, imgopct.com, vgy.me
+|-3|i.imghurr.com
 ---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
 (status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
