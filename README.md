@@ -25,45 +25,45 @@
 |28|WinRAR
 |26|gzip124hack
 |24|bssc
-|23|ppms, bzp, gzip
-|22|CTXf, scmppm, lzsr
+|23|bzp, gzip, ppms
+|22|CTXf, lzsr, scmppm
 |21|M1x2
 |20|ppmd
 |19|drt|lpaq9m, sr3c
-|18|crushm, slug, jar
+|18|crushm, jar, slug
 |17|bzip2
-|16|ppmvc, uharc, DGCA, libzling
+|16|DGCA, libzling, ppmvc, uharc
 |15|pim
-|14|nanozipltcb, mcomp, FreeArc, Stuffit, comprolz, 4x4
-|13|uhbc, sbc, szip, sr3, zhuff, snappy
-|12|zcm, bit, dark, comprox, brieflz
-|11|7zip, ppmx, rh5_x64, zlite, thor, pkzip, stz
-|10|pcompress, rings, fbc, comprox_ba, uc2, data-shrinker
-|9|bcm, PX, WinACE, lzv, FastLZ
-|8|xwrt, tc, enc, boa, zstd, ha, irolz, lzrw3-a
-|7|mcm, ccmx, crook, rzm, WinTurtle, cabarc, srank, QuickLZ, NTFS
-|6|bbb, epmopt|epm, pimple2, m03exp
-|5|bsc, cmm4, hook, flashzip, quad, lzuf
-|4|ppmonstr, M03, ash, bee, acb, KuaiZip, lz4
-|3|phda9, durilca'kingsize, fp8, WinUDA, xpv5, compress, fcm1, bpe, bpe2, fpaq0f2
-|2|nncp, paq8hp12any, paq9a, uda, lstm-compress, csarc, TarsaLZP, etincelle, arj, lzop
-|1|cmix, WinRK, bwmonstr, yxz, lzc, lazy, lz4x, ppp, shindlet_fs
-|0|paq8pxd_v48_bwt1, drt|emma, zpaq, BWTmix, lrzip, lza, dzo, sharc, compact
-|-1|nanozip, slim, ulz, lzf, exdupe, lzp2
-|-2|cmve, chile
-|-3|cm4_ext, ocamyd, qazar, PeaZip, pucrunch, mtari, lzbw1
+|14|4x4, FreeArc, Stuffit, comprolz, mcomp, nanozipltcb
+|13|sbc, snappy, sr3, szip, uhbc, zhuff
+|12|bit, brieflz, comprox, dark, zcm
+|11|7zip, pkzip, ppmx, rh5_x64, stz, thor, zlite
+|10|comprox_ba, data-shrinker, fbc, pcompress, rings, uc2
+|9|FastLZ, PX, WinACE, bcm, lzv
+|8|boa, enc, ha, irolz, lzrw3-a, tc, xwrt, zstd
+|7|NTFS, QuickLZ, WinTurtle, cabarc, ccmx, crook, mcm, rzm, srank
+|6|bbb, epmopt|epm, m03exp, pimple2
+|5|bsc, cmm4, flashzip, hook, lzuf, quad
+|4|KuaiZip, M03, acb, ash, bee, lz4, ppmonstr
+|3|WinUDA, bpe, bpe2, compress, durilca'kingsize, fcm1, fp8, fpaq0f2, phda9, xpv5
+|2|TarsaLZP, arj, csarc, etincelle, lstm-compress, lzop, nncp, paq8hp12any, paq9a, uda
+|1|WinRK, bwmonstr, cmix, lazy, lz4x, lzc, ppp, shindlet_fs, yxz
+|0|BWTmix, compact, drt|emma, dzo, lrzip, lza, paq8pxd_v48_bwt1, sharc, zpaq
+|-1|exdupe, lzf, lzp2, nanozip, slim, ulz
+|-2|chile, cmve
+|-3|PeaZip, cm4_ext, lzbw1, mtari, ocamyd, pucrunch, qazar
 |-4|lzgt3a, lzss
-|-5|glza, CTW, Squeez, balz
-|-6|smac, quark, packet, tornado, crush
-|-7|pigz, flzp
-|-8|LZPXj, brotli, qc, urban, smile
+|-5|CTW, Squeez, balz, glza
+|-6|crush, packet, quark, smac, tornado
+|-7|flzp, pigz
+|-8|LZPXj, brotli, qc, smile, urban
 |-9|bwtdisk, runcoder1
-|-10|fpaq2, xeloz, MTCompressor, TinyLZP
+|-10|MTCompressor, TinyLZP, fpaq2, xeloz
 |-11|bce3
 |-12|alba
 |-13|bwtsdc
 |-14|arb255
-|-15|lzham, arb2x
+|-15|arb2x, lzham
 |-16|TinyCM, dmc
 |-18|lzwc_bitwise
 |-19|lzturbo, packARC
@@ -88,12 +88,13 @@
 |score||
 |-|-
 |5|imgchest.com
-|4|pixstash.net, put.re
-|2|imgbox.com
-|1|imgur.com, i.imghurr.com, x0.at
-|-2|vgy.me
-|-5|cubeupload.com, imgrock.net
-|-6|imgtaxi.com
+|3|imgbox.com
+|2|postimages.org
+|1|put.re
+|0|imgtaxi.com, imgur.com, pixstash.net, x0.at
+|-1|imgrock.net
+|-2|cubeupload.com, vgy.me
+|-3|i.imghurr.com, imgopct.com
 ---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
 (status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
