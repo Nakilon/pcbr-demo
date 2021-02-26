@@ -1,15 +1,34 @@
 Image hosting services aka https://www.reddit.com/r/imguralternatives
 see also https://en.wikipedia.org/wiki/List_of_image-sharing_websites
-                max  anon compr ancompr api badads albums paste thumb nsfw hot
-                +    +    +     +       +   -      +      +     +     +    +
-imgur.com       20   20   5     1       1   1      1      1     0     1    1
-vgy.me          20                      1   0      0      0
-cubeupload.com  5    0    9999  9999    0          0            1     0    1
-imgchest.com    20                      1          1      1           1
-pixstash.net    100  4                                    1     1     1    1
-imgrock.net     10   10                                   0           1    0
-put.re          200  200  9999  9999    1                 0           1
-i.imghurr.com   10   10   4     4       0   0      1      1     1
-imgbox.com      10   10                 0          1      1     1     1    1
-imgtaxi.com     10   1                  0          1      0     1     1    0
-x0.at           1000 1                      0      0      0     0          1
+max       max size (in MB)
+anon      max size for anonymous uploader
+compr     size after which the image gets compressed
+ancompr   same for anonymous uploader
+api       official JSON/XML/cURL API
+badads    annoying ads either for uploader or viewer
+albums    albums/galleries
+paste     uploading via CTRL+V from the OS clipboard
+thumb     automatic generating thumbnail-sized version of the image
+nsfw      mature content is allowed
+hot       hotlinking is allowed
+year      when the website has appeared
+byurl     ability to upload by url
+anbyurl   ability to upload by url for anonymous uploader
+delete    ability to delete the uploaded image
+maxres    max_width * max_height / 1'000'000
+fails     not working sometimes
+                max  anon compr ancompr api badads albums paste thumb nsfw hot year byurl anbyurl delete maxres fails
+                +    +    +     +       +   -      +      +     +     +    +   -    +     +       +      +      -
+imgur.com       20   20   5     1       1   1      1      1     0     1    1   2009 1             1      99     1
+vgy.me          20   0                  1          0      0                    2013       0
+cubeupload.com  5    0    9999  9999    0          0      0     1     0    1   2008
+imgchest.com    20                      1          1      1           1        2006       0       1      400
+pixstash.net    100  4                                    1     1     1    1   2020 1     1       0
+imgrock.net     10   10                     1      1      0     1     1    0   2014 1     0
+put.re          200  200  9999  9999    1          1      0           1        2016                             1
+i.imghurr.com   10   10   4     4       0          1      1     1                   0     0       0      99
+imgbox.com      10   10                 0   0      1      1     1     1    1   2010       0       1      9999
+imgtaxi.com     10   1                  0          1      0     1     1    0   2014 1     1       0      57
+x0.at           1000 1                      0      0      0     0          1   2017 1     1       0
+imgopct.com     5    5    9999  9999                      0     0     1        2021       0       0      9999
+postimages.org  24   24   9999  9999    0          1      1     1     0    1   2004 1             1      100
