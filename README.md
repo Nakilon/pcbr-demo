@@ -91,7 +91,7 @@
 |3|imgbox.com
 |2|postimages.org
 |1|put.re
-|0|imgtaxi.com, imgur.com, pixstash.net, x0.at
+|0|imgtaxi.com, imgur.com, lensdump.com, pixstash.net, x0.at
 |-1|imgrock.net
 |-2|cubeupload.com, vgy.me
 |-3|i.imghurr.com, imgopct.com
