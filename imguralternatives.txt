@@ -25,7 +25,6 @@ cubeupload.com  5    0    9999  9999    0          0      0     1     0    1   2
 imgchest.com    20                      1          1      1           1        2006       0       1      400
 pixstash.net    100  4                                    1     1     1    1   2020 1     1       0
 imgrock.net     10   10                     1      1      0     1     1    0   2014 1     0
-put.re          200  200  9999  9999    1          1      0           1        2016                             1
 i.imghurr.com   10   10   4     4       0          1      1     1                   0     0       0      99
 imgbox.com      10   10                 0   0      1      1     1     1    1   2010       0       1      9999
 imgtaxi.com     10   1                  0          1      0     1     1    0   2014 1     1       0      57
