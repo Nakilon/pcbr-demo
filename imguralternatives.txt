@@ -22,7 +22,7 @@ expire    images may be deleted for inactivity or a big size
 imgur.com       20   20   5     1       1   1      1      1     0     1    1   2009 1             1      99     0
 vgy.me          20   0                  1          0      0                    2013       0
 cubeupload.com  5    0    9999  9999    0          0      0     1     0    1   2008
-imgchest.com    20                      1          1      1           1        2006       0       1      400
+imgchest.com    20   20                 1          1      1           0    0   2006       0       1      400
 pixstash.net    100  4                  1                 1     1     1    1   2020 1     1
 imgrock.net     10   10                     1      1      0     1     1    0   2014 1     0       1
 i.imghurr.com   10   10   4     4       0          1      1     1                   0     0              99
@@ -32,4 +32,4 @@ x0.at           1000 1                      0      0      0     0          1   2
 imgopct.com     5    5    9999  9999                      0     0     1        2021       0       0      9999
 postimages.org  24   24   9999  9999    0          1      1     1     0    1   2004 1             1      100    0
 lensdump.com    100  0    9999  9999    0          1      1     1     0    1   2018 1     0       1      9999   0
-catbox.moe      200  200                1   0      1      0     0     1    1   2015 1     1       1      9999
+catbox.moe      200  200  9999  9999    1   0      1      0     0     1    1   2015 1     1       1      9999
