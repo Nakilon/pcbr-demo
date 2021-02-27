@@ -87,13 +87,12 @@
 (see also https://en.wikipedia.org/wiki/List_of_image-sharing_websites)
 |score||
 |-|-
-|5|imgchest.com
 |3|imgbox.com
-|2|postimages.org
-|1|catbox.moe
-|0|imgtaxi.com, imgur.com, lensdump.com, pixstash.net, x0.at
-|-1|imgrock.net
-|-2|cubeupload.com, vgy.me
+|2|imgchest.com, postimages.org
+|1|catbox.moe, imgur.com
+|0|imgrock.net, imgtaxi.com, lensdump.com, pixstash.net, x0.at
+|-1|cubeupload.com
+|-2|vgy.me
 |-3|i.imghurr.com, imgopct.com
 ---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
