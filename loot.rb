@@ -1,7 +1,3 @@
-puts "The most developed loot management in video games"
-puts "source: https://docs.google.com/spreadsheets/d/1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk/edit?usp=sharing"
-
-
 # https://developers.google.com/sheets/api/quickstart/ruby
 
 require "google/apis/sheets_v4"
@@ -38,12 +34,14 @@ array = [["", ""], *service.get_spreadsheet_values(spreadsheet_id, "Sheet1!A2:A2
         sheets[0].data[0].row_data.map{ |row| row.values.map{ |cell|
           next "" unless cell.effective_format
           {
-            {:blue=>0.8, :green=>0.8, :red=>0.95686275} => ?0,
-            {:blue=>0.827451, :green=>0.91764706, :red=>0.8509804} => ?1,
+            {:blue=>0.8, :green=>0.8, :red=>0.95686275} => "0",
+            {:blue=>0.827451, :green=>0.91764706, :red=>0.8509804} => "1",
           }.fetch cell.effective_format.background_color.to_h
         } }, ""
     ).transpose
   ).map(&:flatten).reject{ |_| _.count("") > 5 }
 
+puts "The most developed loot management in video games"
+puts "source: https://docs.google.com/spreadsheets/d/1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk/edit?usp=sharing"
 sizes = array.transpose.map{ |col| col.map(&:size).max }
 array.each{ |row| puts row.zip(sizes).map{ |str, size| str.ljust size, " " }.join(" ") }
