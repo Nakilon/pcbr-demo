@@ -95,6 +95,23 @@
 |-2|vgy.me
 |-3|i.imghurr.com, imgopct.com
 ---
+## The most developed loot management in video games
+(source: https://docs.google.com/spreadsheets/d/1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk/edit?usp=sharing)
+|score||
+|-|-
+|7|7DTD, Valheim
+|6|CDDA, Diablo 2
+|4|STALKER mods
+|3|EFT, Minecraft, Titan Quest
+|2|Rust
+|-1|Dark Souls 2, Diablo 1, Diablo 3, Starbound, TES 3
+|-2|PUBG
+|-3|Dark Souls, Satisfactory
+|-5|TES 5
+|-6|ROTMG
+|-8|TESO
+|-9|Borderlands 2
+---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
 (status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
 |score||
