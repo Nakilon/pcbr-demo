@@ -1,5 +1,5 @@
 Various hosted pastebin services (https://en.wikipedia.org/wiki/Pastebin)
-repls, buggy services, with forced captcha, demanding registration and exclusive feature columns are excluded; most of the features should be available for guests unless specified
+repls, buggy services, registration requiring and exclusive feature columns are excluded; most of the features should be available for guests unless specified
 year       when the service appeared
 maxsize    paste file size limit
 raw        direct link to a raw content (or that looks like raw)
@@ -38,18 +38,18 @@ pastie.org             2008 100000   1   1      1      0      0     0    1      
 dpaste.org             2009 2500000  0   1      1      1      0     1    0        0       0    1    1   0        0    0      1       1       1      1
 ix.io                  2009 750000   1   1      1      0            1    1        0       1    0    1   0        1    0      0       1       0      1
 vpaste.net             2009 130000   1   1      1      0            0    0        0       0    1    1   0        0    0      0       0       0      0
+paste.opensuse.org     2010 5000000  1   1      1      1      1     0    1        0       0    1    0   0        0    0      0       0       0      0
+paste.the-compiler.org 2013 15000000 1   1      1      1      1     1    1        0       0    1    1   0        0    0      0       0       0      0
 termbin.com            2014 2750000  1   0      0      0      0     0    0        0       0    0    1   0        0    0      0       0       0      0
 0x0.st                 2015 30000000 1   0      0      0      0     0    0        0       0    0    1   0        0    0      0       0       0      0
 clbin.com              2015 4000000  1   0      0      0            0    1        0       0    0    1   0        0    0      0       0       0      0
 rentry.co              2017 200000   1   1      1      0      1     0    1        0       1    0    0   1        0    0      1       1       0      0
 paste.rs               2018 4000000  1   1      0      0            0    0        0       0    1    1   0        0    0      1       1       1      0
+paste.centos.org       2018 1000000  1   1      1      1      0     1    1        0       0    1    0   0        0    0      0       0       0      0
 pastefy.ga             2019 50000    1   1      1      0            0    1        1       0    1    1   1        1    1      0       1       0      1
+p.6core.net            2019 300000   1   0      0      1      0     0    1        0       0    1    1   0        0    0      0       0       0      0
 bpa.st                 2020 256000   1   1      1      1      0     0    1        0       0    1    1   1        0    0      1       1       0      1
 bsd.to                 2020 1000000  1   1      1      1      0     1    0        0       0    1    1   0        0    0      1       1       1      1
 paste.tomsmeding.com   2020 130000   1   0      1      1      1     0    1        0       0    0    1   1        0    0      0       0       0      0
-envs.sh                2021 30000000 1   0      0      0      0     0    0        0       0    1    1   0        0    0      0       0       0      0
-paste.the-compiler.org 2013 15000000 1   1      1      1      1     1    1        0       0    1    1   0        0    0      0       0       0      0
-p.6core.net            2019 300000   1   0      0      1      0     0    1        0       0    1    1   0        0    0      0       0       0      0
 paste.nginx.org        2020 100000   1   1      1      0      0     0    1        0       0    0    1   0        0    0      0       0       0      0
-paste.opensuse.org     2010 5000000  1   1      1      1      1     0    1        0       0    1    0   0        0    0      0       0       0      0
-paste.centos.org       2018 1000000  1   1      1      1      0     1    1        0       0    1    0   0        0    0      0       0       0      0
+envs.sh                2021 30000000 1   0      0      0      0     0    0        0       0    1    1   0        0    0      0       0       0      0
