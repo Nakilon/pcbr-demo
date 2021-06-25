@@ -139,12 +139,16 @@
 |-31|pufferfish, tropical fish
 ---
 ## Various hosted pastebin services (https://en.wikipedia.org/wiki/Pastebin)
-(repls, with forced captcha, buggy services and exclusive feature columns are excluded; most of the features should be available for guests unless specified)
+(repls, buggy services, with forced captcha, demanding registration and exclusive feature columns are excluded; most of the features should be available for guests unless specified)
 |score||
 |-|-
-|4|sprunge.us
-|2|dpaste.com, everfall.com/paste, gist.github.com, paste.debian.net
-|0|0x0.st, bpa.st, bsd.to, dpaste.org, envs.sh, ix.io, paste.org.ru, paste.rs, paste.tomsmeding.com, pastebin.com, pastefy.ga, rentry.co
-|-1|clbin.com, paste.ubuntu.com, paste2.org, termbin.com
+|5|paste.the-compiler.org, sprunge.us
+|3|dpaste.com, gist.github.com, paste.debian.net
+|2|everfall.com/paste
+|1|bpa.st, ix.io, pastebin.com
+|0|0x0.st, bsd.to, dpaste.org, envs.sh, paste.opensuse.org, paste.org.ru, paste.rs, paste.tomsmeding.com, pastefy.ga, rentry.co
+|-1|p.6core.net, paste.centos.org, paste.ubuntu.com, paste2.org
+|-2|clbin.com, termbin.com
 |-4|pastie.org, vpaste.net
+|-8|paste.nginx.org
 ---
