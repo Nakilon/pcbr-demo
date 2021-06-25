@@ -1,11 +1,11 @@
 Various hosted pastebin services (https://en.wikipedia.org/wiki/Pastebin)
-repls, with forced captcha, buggy services and exclusive feature columns are excluded; most of the features should be available for guests unless specified
+repls, buggy services, with forced captcha, demanding registration and exclusive feature columns are excluded; most of the features should be available for guests unless specified
 year       when the service appeared
 maxsize    paste file size limit
 raw        direct link to a raw content (or that looks like raw)
 syntax     syntax highlighting (more than one language supported)
 lineno     view with line numbers is available
-expire     ability to set expiration time (at least as a guest)
+expire     ability to configure expiration time (at least as a guest)
 expno      ability to create non-expiring paste
 burn       ability to create paste that can be read only once
 unlisted   unlisted (or too short link; may require login to create)
@@ -23,28 +23,33 @@ delanon    ability to delete your paste for guests
 delfree    ability to delete your paste for free accounts
 delpub     anyone can delete your paste
 highlight  highlight a line by number
-                     year maxsize  raw syntax lineno expire expno burn unlisted private edit nojs api multiple auth openid delanon delfree delpub highlight
-                     -    +        +   +      +      +      +     +    +        +       +    +    +   +        +    +      +       +       -      +
-pastebin.com         2002 512000   1   1      1      1      1     1    1        1       1    0    1   0        1    1      0       1       0      0
-dpaste.com           2005 250000   1   1      1      1      0     0    1        0       0    1    1   0        1    1      0       0       0      1
-paste2.org           2006 4000000  0   1      1      0            0    1        0       0    1    0   0        0    0      0       0       0      0
-paste.org.ru         2007 20000000 0   1      1      0            0    0        0       0    1    1   0        1    0      0       0       0      0
-sprunge.us           2008 10000000 1   1      1      0      0     0    1        0       0    1    1   0        0    0      0       0       0      0
-gist.github.com      2008 1000000  1   1      1      0      1     0    1        0       1    1    1   1        1    0      0       1       0      1
-paste.ubuntu.com     2008 2000000  0   0      1      1      0     0    1        0       0    1    0   0        0    0      0       0       0      0
-paste.debian.net     2008 150000   1   1      1      1      1     0    1        0       0    1    1   0        0    0      1       1       0      0
-dpaste.org           2009 2500000  0   1      1      1      0     1    0        0       0    1    1   0        0    0      1       1       1      1
-ix.io                2009 750000   1   1      1      0            1    1        0       1    0    1   0        1    0      0       1       0      1
-vpaste.net           2009 130000   1   1      1      0            0    0        0       0    1    1   0        0    0      0       0       0      0
-termbin.com          2014 2750000  1   0      0      0      0     0    0        0       0    0    1   0        0    0      0       0       0      0
-0x0.st               2015 30000000 1   0      0      0      0     0    0        0       0    0    1   0        0    0      0       0       0      0
-clbin.com            2015 4000000  1   0      0      0            0    1        0       0    0    1   0        0    0      0       0       0      0
-rentry.co            2017 200000   1   1      1      0      1     0    1        0       1    0    0   1        0    0      1       1       0      0
-paste.rs             2018 4000000  1   1      0      0            0    0        0       0    1    1   0        0    0      1       1       1      0
-pastefy.ga           2019 50000    1   1      1      0            0    1        1       0    1    1   1        1    1      0       1       0      1
-bpa.st               2020 256000   1   1      1      1      0     0    1        0       0    1    1   1        0    0      1       1       0      1
-bsd.to               2020 1000000  1   1      1      1      0     1    0        0       0    1    1   0        0    0      1       1       1      1
-paste.tomsmeding.com 2020 130000   1   0      1      1      1     0    1        0       0    0    1   1        0    0      0       0       0      0
-envs.sh              2021 30000000 1   0      0      0      0     0    0        0       0    1    1   0        0    0      0       0       0      0
-pastie.org           2008 100000   1   1      1      0      0     0    1        0       0    1    0   0        0    0      0       0       0      0
-everfall.com/paste   2004 5000000  0   1      1      1      1     0    1        1       1    1    0   0        0    0      0       0       0      0
+                       year maxsize  raw syntax lineno expire expno burn unlisted private edit nojs api multiple auth openid delanon delfree delpub highlight
+                       -    +        +   +      +      +      +     +    +        +       +    +    +   +        +    +      +       +       -      +
+pastebin.com           2002 512000   1   1      1      1      1     1    1        1       1    0    1   0        1    1      0       1       0      0
+everfall.com/paste     2004 5000000  0   1      1      1      1     0    1        1       1    1    0   0        0    0      0       0       0      0
+dpaste.com             2005 250000   1   1      1      1      0     0    1        0       0    1    1   0        1    1      0       0       0      1
+paste2.org             2006 4000000  0   1      1      0            0    1        0       0    1    0   0        0    0      0       0       0      0
+paste.org.ru           2007 20000000 0   1      1      0            0    0        0       0    1    1   0        1    0      0       0       0      0
+sprunge.us             2008 10000000 1   1      1      0      0     0    1        0       0    1    1   0        0    0      0       0       0      0
+gist.github.com        2008 1000000  1   1      1      0      1     0    1        0       1    1    1   1        1    0      0       1       0      1
+paste.ubuntu.com       2008 2000000  0   0      1      1      0     0    1        0       0    1    0   0        0    0      0       0       0      0
+paste.debian.net       2008 150000   1   1      1      1      1     0    1        0       0    1    1   0        0    0      1       1       0      0
+pastie.org             2008 100000   1   1      1      0      0     0    1        0       0    1    0   0        0    0      0       0       0      0
+dpaste.org             2009 2500000  0   1      1      1      0     1    0        0       0    1    1   0        0    0      1       1       1      1
+ix.io                  2009 750000   1   1      1      0            1    1        0       1    0    1   0        1    0      0       1       0      1
+vpaste.net             2009 130000   1   1      1      0            0    0        0       0    1    1   0        0    0      0       0       0      0
+termbin.com            2014 2750000  1   0      0      0      0     0    0        0       0    0    1   0        0    0      0       0       0      0
+0x0.st                 2015 30000000 1   0      0      0      0     0    0        0       0    0    1   0        0    0      0       0       0      0
+clbin.com              2015 4000000  1   0      0      0            0    1        0       0    0    1   0        0    0      0       0       0      0
+rentry.co              2017 200000   1   1      1      0      1     0    1        0       1    0    0   1        0    0      1       1       0      0
+paste.rs               2018 4000000  1   1      0      0            0    0        0       0    1    1   0        0    0      1       1       1      0
+pastefy.ga             2019 50000    1   1      1      0            0    1        1       0    1    1   1        1    1      0       1       0      1
+bpa.st                 2020 256000   1   1      1      1      0     0    1        0       0    1    1   1        0    0      1       1       0      1
+bsd.to                 2020 1000000  1   1      1      1      0     1    0        0       0    1    1   0        0    0      1       1       1      1
+paste.tomsmeding.com   2020 130000   1   0      1      1      1     0    1        0       0    0    1   1        0    0      0       0       0      0
+envs.sh                2021 30000000 1   0      0      0      0     0    0        0       0    1    1   0        0    0      0       0       0      0
+paste.the-compiler.org 2013 15000000 1   1      1      1      1     1    1        0       0    1    1   0        0    0      0       0       0      0
+p.6core.net            2019 300000   1   0      0      1      0     0    1        0       0    1    1   0        0    0      0       0       0      0
+paste.nginx.org        2020 100000   1   1      1      0      0     0    1        0       0    0    1   0        0    0      0       0       0      0
+paste.opensuse.org     2010 5000000  1   1      1      1      1     0    1        0       0    1    0   0        0    0      0       0       0      0
+paste.centos.org       2018 1000000  1   1      1      1      0     1    1        0       0    1    0   0        0    0      0       0       0      0
