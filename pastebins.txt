@@ -27,19 +27,20 @@ embed      javascript to embed on your webpage
 anonhist   see list of your pastes while being a guest (cookies)
 highlight  highlight a line by number
 fork       fork a paste
-                year maxsize  raw syntax lineno expire expno burn unlisted private edit nojs api multiple auth openid opensource deleteanon deletefree deletepub anonhist highlight fork
-                -    +        +   +      +      +      +     +    +        +       +    +    +   +        +    +      +          +          +          -         +        +         +
-pastebin.com    2002 512000   1   1      1      1      1     1    1        1       1    0    1   0        1    1      0          0          1          0         0        0         1
-paste2.org      2006 4000000  0   1      1      0            0    1        0       0    1    0   0        0    0      0          0          0          0         0        0         1
-paste.org.ru    2007 20000000 0   1      1      0            0    0        0       0    1    1   0        1    0      0          0          0          0         0        0         1
-sprunge.us      2008 10000000 1   1      1      0      0     0    1        0       0    1    1   0        0    0      1          0          0          0         0        0         0
-gist.github.com 2008 1000000  1   1      1      0      1     0    1        0       1    1    1   1        1    0      0          0          1          0         0        1         0
-dpaste.org      2009 2500000  0   1      1      1      0     1    1        0       0    1    1   0        0    0      1          1          1          1         1        1         0
-ix.io           2009 750000   1   1      1      0            1    1        0       1    0    1   0        1    0      0          0          1          0         0        1         0
-termbin.com     2014 2750000  1   0      0      0      0     0    0        0       0    0    1   0        0    0      1          0          0          0         0        0         0
-0x0.st          2015 30000000 1   0      0      0      0     0    0        0       0    0    1   0        0    0      1          0          0          0         0        0         0
-rentry.co       2017 200000   1   1      1      0      1     0    1        0       1    1    0   1        0    0      0          1          1          0         0        0         0
-paste.rs        2018 4000000  1   1      0      0            0    0        0       0    1    1   0        0    0      0          1          1          1         0        0         0
-pastefy.ga      2019 50000    1   1      1      0            0    1        1       0    1    1   1        1    1      1          0          1          0         1        1         1
-bpa.st          2020 256000   1   1      1      1      0     0    1        0       0    1    1   1        0    0      1          1          1          0         0        1         1
-envs.sh         2021 30000000 1   0      0      0      0     0    0        0       0    1    1   0        0    0      1          0          0          0         0        0         0
+                 year maxsize  raw syntax lineno expire expno burn unlisted private edit nojs api multiple auth openid opensource deleteanon deletefree deletepub anonhist highlight fork
+                 -    +        +   +      +      +      +     +    +        +       +    +    +   +        +    +      +          +          +          -         +        +         +
+pastebin.com     2002 512000   1   1      1      1      1     1    1        1       1    0    1   0        1    1      0          0          1          0         0        0         1
+paste2.org       2006 4000000  0   1      1      0            0    1        0       0    1    0   0        0    0      0          0          0          0         0        0         1
+paste.org.ru     2007 20000000 0   1      1      0            0    0        0       0    1    1   0        1    0      0          0          0          0         0        0         1
+sprunge.us       2008 10000000 1   1      1      0      0     0    1        0       0    1    1   0        0    0      1          0          0          0         0        0         0
+gist.github.com  2008 1000000  1   1      1      0      1     0    1        0       1    1    1   1        1    0      0          0          1          0         0        1         0
+paste.ubuntu.com 2008 2000000  0   0      1      1      0     0    1        0       0    1    0   0        0    0      0          0          0          0         0        0         0
+dpaste.org       2009 2500000  0   1      1      1      0     1    1        0       0    1    1   0        0    0      1          1          1          1         1        1         0
+ix.io            2009 750000   1   1      1      0            1    1        0       1    0    1   0        1    0      0          0          1          0         0        1         0
+termbin.com      2014 2750000  1   0      0      0      0     0    0        0       0    0    1   0        0    0      1          0          0          0         0        0         0
+0x0.st           2015 30000000 1   0      0      0      0     0    0        0       0    0    1   0        0    0      1          0          0          0         0        0         0
+rentry.co        2017 200000   1   1      1      0      1     0    1        0       1    1    0   1        0    0      0          1          1          0         0        0         0
+paste.rs         2018 4000000  1   1      0      0            0    0        0       0    1    1   0        0    0      0          1          1          1         0        0         0
+pastefy.ga       2019 50000    1   1      1      0            0    1        1       0    1    1   1        1    1      1          0          1          0         1        1         1
+bpa.st           2020 256000   1   1      1      1      0     0    1        0       0    1    1   1        0    0      1          1          1          0         0        1         1
+envs.sh          2021 30000000 1   0      0      0      0     0    0        0       0    1    1   0        0    0      1          0          0          0         0        0         0
