@@ -142,5 +142,7 @@
 (see also https://en.wikipedia.org/wiki/Pastebin)
 |score||
 |-|-
-|0|0x0.st, bpa.st, dpaste.org, envs.sh, gist.github.com, ix.io, paste.org.ru, paste.rs, paste2.org, pastebin.com, pastefy.ga, rentry.co, sprunge.us
+|1|sprunge.us
+|0|0x0.st, bpa.st, dpaste.org, envs.sh, gist.github.com, ix.io, paste.org.ru, paste.rs, paste.ubuntu.com, paste2.org, pastebin.com, pastefy.ga, rentry.co
+|-1|termbin.com
 ---
