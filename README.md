@@ -139,7 +139,7 @@
 |-31|pufferfish, tropical fish
 ---
 ## Various hosted pastebin services (https://en.wikipedia.org/wiki/Pastebin)
-(repls, buggy services, with forced captcha, demanding registration and exclusive feature columns are excluded; most of the features should be available for guests unless specified)
+(repls, buggy services, registration requiring and exclusive feature columns are excluded; most of the features should be available for guests unless specified)
 |score||
 |-|-
 |5|paste.the-compiler.org, sprunge.us
