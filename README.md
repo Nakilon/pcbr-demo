@@ -138,11 +138,9 @@
 |-25|cookie
 |-31|pufferfish, tropical fish
 ---
-## Various pastebin services
-(https://en.wikipedia.org/wiki/Pastebin)
+## Various pastebin services (repls and exclusive features are excluded)
+(see also https://en.wikipedia.org/wiki/Pastebin)
 |score||
 |-|-
-|1|sprunge.us
-|0|dpaste.org, gist.github.com, ix.io, paste.org.ru, pastebin.com, pastefy.ga, pastiebin.com, rentry.co
-|-1|paste2.org
+|0|0x0.st, bpa.st, dpaste.org, envs.sh, gist.github.com, ix.io, paste.org.ru, paste.rs, paste2.org, pastebin.com, pastefy.ga, rentry.co, sprunge.us
 ---

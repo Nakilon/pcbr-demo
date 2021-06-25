@@ -3,11 +3,13 @@ see also https://en.wikipedia.org/wiki/Pastebin
 year       when the service appeared
 maxsize    paste file size limit
 raw        direct link to a raw content
+syntax     syntax highlighting is available
+lineno     view with line numbers is available
 expire     ability to set expiration time (at least as a guest)
 expno      ability to create non-expiring paste
 burn       ability to create paste that can be read only once
-unlisted   ability to create unlisted (may require login to create)
-private    ability to create private (can't be shared as just link)
+unlisted   unlisted (or too short link; may require login to create)
+private    private (can't be shared as just link)
 edit       ability to edit your paste (requires login)
 nojs       website form that allows to paste with js disabled
 preview    syntax highlighting preview
@@ -18,7 +20,6 @@ openid     auth to login/register with identity providers
 opensource ability to have your own server
 star       add to favourites (requires login)
 subscribe  subscribe to updates or comments
-langs      number of supported languages
 deleteanon ability to delete your paste for guests
 deletefree ability to delete your paste for free accounts
 deletepub  anyone can delete your paste
@@ -26,17 +27,18 @@ embed      javascript to embed on your webpage
 anonhist   see list of your pastes while being a guest (cookies)
 highlight  highlight a line by number
 fork       fork a paste
-                year maxsize  raw expire expno burn unlisted private edit nojs preview api multiple auth openid opensource langs deleteanon deletefree deletepub anonhist highlight fork
-                -    +        +   +      +     +    +        +       +    +    +       +   +        +    +      +          +     +          +          -         +        +         +
-pastebin.com    2002 512000   1   1      1     1    1        1       1    0    1       1   0        1    1      0          200   0          1          0         0        0         1
-dpaste.org      2009 2000000  0   1      0     1    1        0       0    1    0       1   0        0    0      1          60    1          1          1         1        1         0
-sprunge.us      2008 10000000 1   0      0     0    1        0       0    1    0       1   0        0    0      1                0          0          0         0        0         0
-ix.io           2009 750000   1   0            1    1        0       1    0    0       1   0        1    0                       0          1          0         0        1         0
-gist.github.com 2008 1000000  1   0      1     0    1        0       1    1    1       1   1        1    0      0          700   0          1          0         0        1         0
-paste.org.ru    2007 20000000 0   0            0    0        0       0    1    0       1   0        1    0      0          150   0                     0                  0         1
-rentry.co       2017 200000   1   0      1     0    1        0       1         1       0            0    0      0          500   1          1          0         0        0         0
-pastefy.ga      2019 50000    1   0            0    1        1       0    1    0       1   1        1    1      1                0          1          0         1        1         1
-paste2.org      2006 3000000  0   0            0    1        0       0    1    0       0   0        0    0      0          350   0          0          0         0        0         1
-envs.sh         2021 30000000 1   0      0     0    0        0       0    1    0       1   0        0    0      1          0     0          0          0         0        0         0
-0x0.st          2015 30000000 1   0      0     0    0        0       0    1    0       1   0        0    0      1          0     0          0          0         0        0         0
-bpa.st          2020 256000   1   1      0     0    1        0       0    1    0       1   1        0    0      1          450   1          1          0         0        1         1
+                year maxsize  raw syntax lineno expire expno burn unlisted private edit nojs preview api multiple auth openid opensource deleteanon deletefree deletepub anonhist highlight fork
+                -    +        +   +      +      +      +     +    +        +       +    +    +       +   +        +    +      +          +          +          -         +        +         +
+pastebin.com    2002 512000   1   1      1      1      1     1    1        1       1    0    1       1   0        1    1      0          0          1          0         0        0         1
+dpaste.org      2009 2000000  0   1      1      1      0     1    1        0       0    1    0       1   0        0    0      1          1          1          1         1        1         0
+sprunge.us      2008 10000000 1   1      1      0      0     0    1        0       0    1    0       1   0        0    0      1          0          0          0         0        0         0
+ix.io           2009 750000   1   1      1      0            1    1        0       1    0    0       1   0        1    0                 0          1          0         0        1         0
+gist.github.com 2008 1000000  1   1      1      0      1     0    1        0       1    1    1       1   1        1    0      0          0          1          0         0        1         0
+paste.org.ru    2007 20000000 0   1      1      0            0    0        0       0    1    0       1   0        1    0      0          0                     0                  0         1
+rentry.co       2017 200000   1   1      1      0      1     0    1        0       1    1    1       0            0    0      0          1          1          0         0        0         0
+pastefy.ga      2019 50000    1   1      1      0            0    1        1       0    1    0       1   1        1    1      1          0          1          0         1        1         1
+paste2.org      2006 4000000  0   1      1      0            0    1        0       0    1    0       0   0        0    0      0          0          0          0         0        0         1
+envs.sh         2021 30000000 1   0      0      0      0     0    0        0       0    1    0       1   0        0    0      1          0          0          0         0        0         0
+0x0.st          2015 30000000 1   0      0      0      0     0    0        0       0    0    0       1   0        0    0      1          0          0          0         0        0         0
+bpa.st          2020 256000   1   1      1      1      0     0    1        0       0    1    0       1   1        0    0      1          1          1          0         0        1         1
+paste.rs        2018 4000000  1   1      0      0            0    0        0       0    1    0       1   0        0    0      0          1          1          1         0        0         0
