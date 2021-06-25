@@ -1,0 +1,46 @@
+Various pastebin services
+https://en.wikipedia.org/wiki/Pastebin
+year       when the service appeared
+maxsize    paste file size limit
+raw        direct link to a raw content
+expire     ability to set expiration time (at least as a guest)
+expno      ability to create non-expiring paste
+burn       ability to create paste that can be read only once
+unlisted   ability to create unlisted (may require login to create)
+private    ability to create private (can't be shared as just link)
+edit       ability to edit your paste (requires login)
+edithist   history of edits
+nojs       website form that allows to paste with js disabled
+slim       like raw but also with line numbers
+preview    syntax highlighting preview
+api        official API of any kind, even curl
+multiple   ability to have multiple files per paste (may require login)
+auth       ability to create an account
+openid     auth to login/register with identity providers
+opensource ability to have your own server
+star       add to favourites (requires login)
+subscribe  subscribe to updates or comments
+langs      number of supported languages
+deleteanon ability to delete your paste for guests
+deletefree ability to delete your paste for free accounts
+deletepub  anyone can delete your paste
+limanon    number of pastes per 24 hours for guests
+limfree    number of pastes per 24 hours for free accounts
+embed      javascript to embed on your webpage
+anonhist   see list of your pastes while being a guest (cookies)
+highlight  highlight a line by number
+fork       fork a paste
+editpub    anyone can edit your paste
+captcha    you have to solve captcha to make paste (at least as a guest)
+                year maxsize  raw expire expno burn unlisted private edit edithist nojs slim preview api multiple auth openid opensource star subscribe langs deleteanon deletefree deletepub limanon limfree embed anonhist highlight fork editpub captcha
+                     +        +   +      +     +    +        +       +    +        +    +    +       +   +        +    +      +          +    +         +     +          +          -         +       +       +     +        +         +    -       -
+pastebin.com    2002 512000   1   1      1     1    1        1       1             0    0    1       1   0        1    1      0                         200   0          1          0         10      20      1     0        0         1    0       0
+dpaste.org      2009 2000000  0   1      0     1    1        0       0    0        1    1    0       1   0        0    0      1          0    0         60    1          1          1                         0     1        1         0    0       0
+sprunge.us      2008 10000000 1   0      0     0    1        0       0    0        1    1    0       1   0        0    0      1          0    0               0          0          0                         0     0        0         0    0       0
+ix.io           2009 500000   1   0            1    1        0       1    0        0    1    0       1   0        1    0                 0    0               0          1          0                         0     0        1         0    0       0
+gist.github.com 2008 1000000  1   0      1     0    1        0       1    1        1    0    1       1   1        1    0      0          1    1         700   0          1          0                         0     0        1         0    0       0
+paste.org.ru    2007 20000000 0   0            0    0        0       0    0        1    0    0       1   0        1    0      0          0    0         150   0                     0                         0              0         1    0       0
+rentry.co       2017 200000   1   0      1     0    1        0       1    0             0    1       0            0    0      0          0    0         500   1          1          0                         0     0        0         0    0       0
+pastiebin.com   2010 1000000  0   0            0    1        0       1    1        0         0       0   0        1    0      0                         90                          0                         1     0        0         0    1       1
+pastefy.ga      2019 50000    1   0            0    1        1       0    0        1    0    0       1   1        1    1      1                               0          1          0                         0     1        1         1    0       0
+paste2.org      2006 3000000  0   0            0    1        0       0    0             0    0       0   0        0    0      0          0    0         350   0          0          0                         0     0        0         1    0       0
