@@ -146,9 +146,55 @@
 |3|dpaste.com, gist.github.com, paste.debian.net
 |2|everfall.com/paste
 |1|bpa.st, ix.io, pastebin.com
-|0|0x0.st, bsd.to, dpaste.org, envs.sh, paste.opensuse.org, paste.org.ru, paste.rs, paste.tomsmeding.com, pastefy.ga, rentry.co
+|0|0x0.st, bsd.to, dpaste.org, envs.sh, p.defau.lt, paste.opensuse.org, paste.org.ru, paste.rs, paste.tomsmeding.com, pastefy.ga, rentry.co
 |-1|p.6core.net, paste.centos.org, paste.ubuntu.com, paste2.org
 |-2|clbin.com, termbin.com
 |-4|pastie.org, vpaste.net
 |-8|paste.nginx.org
+---
+## Rimworld: best textiles for DECOR (https://rimworldwiki.com/wiki/Textiles)
+(not wasting good armor on furniture and vice versa)
+|score||
+|-|-
+|6|Patchleather
+|4|Sheep wool
+|3|Foxfur, Lightleather
+|2|Bison wool, Lizardskin
+|1|Birdskin, Chinchilla fur
+|0|Camelhide, Cloth, Devilstrand, Elephant leather, Heavy fur, Human leather, Hyperweave, Panthera fur, Pigskin, Rhinoceros leather, Synthread, Thrumbofur
+|-1|Bearskin, Bluefur, Guinea pig fur, Muffalo wool, Wolfskin
+|-2|Alpaca wool
+|-3|Megasloth wool
+|-5|Dog leather
+|-7|Plainleather
+---
+## Rimworld: best textiles for SUMMER (https://rimworldwiki.com/wiki/Textiles)
+(not wasting good armor on furniture and vice versa)
+|score||
+|-|-
+|9|Camelhide, Dog leather
+|7|Plainleather
+|4|Bluefur, Cloth, Human leather, Lizardskin, Pigskin
+|3|Bearskin, Panthera fur
+|2|Synthread
+|1|Birdskin, Devilstrand, Lightleather, Wolfskin
+|0|Elephant leather, Heavy fur, Hyperweave, Patchleather, Rhinoceros leather, Thrumbofur
+|-4|Alpaca wool, Guinea pig fur
+|-5|Foxfur, Megasloth wool
+|-7|Bison wool
+|-10|Chinchilla fur
+|-11|Muffalo wool, Sheep wool
+---
+## Rimworld: best textiles for WINTER (https://rimworldwiki.com/wiki/Textiles)
+(not wasting good armor on furniture and vice versa)
+|score||
+|-|-
+|4|Heavy fur, Megasloth wool
+|3|Wolfskin
+|2|Bluefur, Plainleather
+|1|Human leather, Muffalo wool, Pigskin, Sheep wool
+|0|Birdskin, Cloth, Devilstrand, Elephant leather, Guinea pig fur, Hyperweave, Lizardskin, Patchleather, Rhinoceros leather, Thrumbofur
+|-1|Bearskin, Dog leather, Panthera fur
+|-2|Alpaca wool, Camelhide, Chinchilla fur, Lightleather, Synthread
+|-3|Bison wool, Foxfur
 ---
