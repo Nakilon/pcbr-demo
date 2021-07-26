@@ -1,0 +1,33 @@
+Rimworld: best textiles for WINTER (https://rimworldwiki.com/wiki/Textiles)
+not wasting good armor on furniture and vice versa
+                   armor_sharp_factor insulation_cold_c insulation_heat_c beauty_factor
+                   +                  +                 -                 -            
+Alpaca wool        36                 2800              1600              150          
+Bearskin           112                2000              2000              190          
+Birdskin           67                 1000              1000              100          
+Bison wool         36                 2600              1200              150          
+Bluefur            81                 2000              1600              130          
+Camelhide          81                 1600              2400              130          
+Chinchilla fur     67                 3000              1600              360          
+Cloth              36                 1800              1800              100          
+Devilstrand        140                2000              2400              320          
+Dog leather        81                 1400              1600              100          
+Elephant leather   112                1400              1200              160          
+Foxfur             81                 2000              1600              200          
+Guinea pig fur     67                 3800              1800              280          
+Heavy fur          124                3000              1400              185          
+Human leather      64                 1200              1200              100          
+Hyperweave         200                2600              2600              550          
+Lightleather       54                 1200              1200              100          
+Lizardskin         81                 1200              1200              120          
+Megasloth wool     80                 3400              1200              150          
+Muffalo wool       36                 3000              1200              150          
+Panthera fur       93                 1600              2400              170          
+Patchleather       45                 900               900               100          
+Pigskin            64                 1200              1200              100          
+Plainleather       81                 1600              1600              100          
+Rhinoceros leather 129                1400              1400              240          
+Sheep wool         36                 2600              1000              150          
+Synthread          94                 2200              2200              230          
+Thrumbofur         208                3400              2200              800          
+Wolfskin           102                2400              1600              170          
