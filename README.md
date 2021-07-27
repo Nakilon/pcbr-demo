@@ -143,11 +143,12 @@
 |score||
 |-|-
 |5|paste.the-compiler.org, sprunge.us
-|3|dpaste.com, gist.github.com, paste.debian.net
+|4|gist.github.com
+|3|dpaste.com, paste.debian.net
 |2|everfall.com/paste
 |1|bpa.st, ix.io, pastebin.com
-|0|0x0.st, bsd.to, dpaste.org, envs.sh, p.defau.lt, paste.opensuse.org, paste.org.ru, paste.rs, paste.tomsmeding.com, pastefy.ga, rentry.co
-|-1|p.6core.net, paste.centos.org, paste.ubuntu.com, paste2.org
+|0|0x0.st, bsd.to, dpaste.org, envs.sh, p.defau.lt, paste.opensuse.org, paste.org.ru, paste.rs, paste.tomsmeding.com, pastefy.ga
+|-1|p.6core.net, paste.centos.org, paste.ubuntu.com, paste2.org, rentry.co
 |-2|clbin.com, termbin.com
 |-4|pastie.org, vpaste.net
 |-8|paste.nginx.org
