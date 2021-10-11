@@ -102,17 +102,17 @@
 |8|7DTD, CDDA, Empyrion
 |7|Valheim
 |5|Diablo 2, EFT, STALKER + mods, Titan Quest
-|4|Cryofall, Rust
+|4|Cryofall, Raft, Rust
 |3|Minecraft
 |1|STALKER: ShoC, Starbound
 |0|Satisfactory
 |-1|Dark Souls 2, Diablo 1, Diablo 3, TES 3
 |-4|Dark Souls, PUBG
 |-6|Borderlands 2, TES 5
-|-7|ROTMG
-|-10|Rimworld
-|-11|TESO
-|-12|Far Cry 3
+|-8|ROTMG
+|-11|Rimworld
+|-12|TESO
+|-13|Far Cry 3
 ---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
 (status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
