@@ -28,9 +28,9 @@ end
 
 spreadsheet_id = "1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk"
 array = [["", ""], *service.get_spreadsheet_values(spreadsheet_id, "Sheet1!A2:A23").values.map{ |_,| [_.tr(" ", "_"), "+"] }].transpose +
-  service.get_spreadsheet_values(spreadsheet_id, "Sheet1!B1:AM1").values[0].zip(
+  service.get_spreadsheet_values(spreadsheet_id, "Sheet1!B1:AQ1").values[0].zip(
     fill_for_transpose.call(
-      service.get_spreadsheet(spreadsheet_id, include_grid_data: true, ranges: ["Sheet1!B2:AM23"]).
+      service.get_spreadsheet(spreadsheet_id, include_grid_data: true, ranges: ["Sheet1!B2:AQ23"]).
         sheets[0].data[0].row_data.map{ |row| row.values.map{ |cell|
           next "" unless cell.effective_format
           {
