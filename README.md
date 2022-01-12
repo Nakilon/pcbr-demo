@@ -99,23 +99,19 @@
 (source: https://docs.google.com/spreadsheets/d/1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk/edit?usp=sharing)
 |score||
 |-|-
-|11|Project Zomboid
-|10|CDDA
-|7|7DTD, Empyrion, Valheim
-|6|STALKER + mods
-|5|EFT, Terraria, Titan Quest
-|4|Diablo 2, Rust
-|3|Cyberpunk 2077, Minecraft
-|2|Cryofall, Raft
-|0|Apex Legends, Diablo 3, TES 4
-|-1|Diablo 1, STALKER: ShoC, Satisfactory, Starbound
-|-2|Dark Souls 2, TES 3
-|-3|Rimworld
-|-5|Dark Souls, PUBG
-|-8|Borderlands 2, TES 5
-|-11|ROTMG
-|-16|TESO
-|-17|Far Cry 3
+|11|DayZ
+|6|CDDA
+|5|Project Zomboid
+|4|Empyrion
+|3|7DTD, STALKER + mods, Titan Quest
+|2|EFT
+|1|Diablo 2, Dwarf Fortress, Terraria
+|0|Cyberpunk 2077
+|-1|Cryofall, Diablo 3, Minecraft, Raft, Rust, Valheim
+|-2|STALKER: ShoC, Satisfactory
+|-3|Starbound
+|-4|Dark Souls 2, Diablo 1, PUBG, Rimworld
+|-11|Apex Legends
 ---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
 (status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
