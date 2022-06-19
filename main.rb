@@ -1,6 +1,6 @@
 require "set"
 require "pcbr"
-Dir.glob("*.txt").sort.map do |filename|
+(Dir.glob("*.txt") - %w{ CATME.txt }).sort.map do |filename|
   fail unless /\A(?<title>.+)\n(?<description>.+)\n(\S.*\n)*( .+)\n(?<directions> .+)\n/ =~ File.read(filename)
   s = $'.split "\n"
   puts "## #{title}\n(#{description})\n|score||\n|-|-"
