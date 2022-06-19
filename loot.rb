@@ -27,10 +27,10 @@ fill_for_transpose = lambda do |array, x|
 end
 
 spreadsheet_id = "1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk"
-array = [["", ""], *service.get_spreadsheet_values(spreadsheet_id, "Sheet1!A2:A26").values.map{ |_,| [_.tr(" ", "_"), "+"] }].transpose +
+array = [["", ""], *service.get_spreadsheet_values(spreadsheet_id, "Sheet1!A2:A27").values.map{ |_,| [_.tr(" ", "_"), "+"] }].transpose +
   service.get_spreadsheet_values(spreadsheet_id, "Sheet1!Q1:AT1").values[0].zip(
     fill_for_transpose.call(
-      service.get_spreadsheet(spreadsheet_id, include_grid_data: true, ranges: ["Sheet1!Q2:AT26"]).
+      service.get_spreadsheet(spreadsheet_id, include_grid_data: true, ranges: ["Sheet1!Q2:AT27"]).
         sheets[0].data[0].row_data.map{ |row| row.values.map{ |cell|
           next "" unless cell.effective_format
           {
