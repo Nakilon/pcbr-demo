@@ -99,19 +99,17 @@
 (source: https://docs.google.com/spreadsheets/d/1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk/edit?usp=sharing)
 |score||
 |-|-
-|11|DayZ
-|6|CDDA
-|5|Project Zomboid
-|4|Empyrion
-|3|7DTD, STALKER + mods, Titan Quest
+|10|DayZ
+|5|CDDA
+|3|7DTD, Empyrion, STALKER + mods, Titan Quest
 |2|EFT
-|1|Diablo 2, Dwarf Fortress, Terraria
-|0|Cyberpunk 2077
-|-1|Cryofall, Diablo 3, Minecraft, Raft, Rust, Valheim
-|-2|STALKER: ShoC, Satisfactory
-|-3|Starbound
-|-4|Dark Souls 2, Diablo 1, PUBG, Rimworld
-|-11|Apex Legends
+|1|Diablo 2, Dwarf Fortress, Kenshi
+|0|Cryofall, Cyberpunk 2077, Terraria
+|-1|Diablo 3, Minecraft, Raft, Rimworld, Rust, STALKER: ShoC, Valheim
+|-2|Satisfactory, Starbound
+|-3|Dark Souls 2, PUBG
+|-5|Diablo 1
+|-10|Apex Legends
 ---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
 (status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
@@ -197,4 +195,19 @@
 |-1|Bearskin, Dog leather, Panthera fur
 |-2|Alpaca wool, Camelhide, Chinchilla fur, Lightleather, Synthread
 |-3|Bison wool, Foxfur
+---
+## Индекс обеспеченности разработчиков в российских городах (https://habr.com/ru/company/habr_career/blog/667408/)
+(На Школьном портале высрали статью на несколько страниц, где ПОДЕЛИЛИ зарплату на стоимость аренды.)
+|score||
+|-|-
+|7|Воронеж
+|6|Волгоград, Омск
+|2|Краснодар
+|1|Самара
+|0|Москва, Нижний Новгород, Новосибирск, Санкт-Петербург
+|-1|Ростов-на-Дону
+|-3|Пермь
+|-4|Уфа
+|-6|Екатеринбург
+|-8|Казань
 ---
