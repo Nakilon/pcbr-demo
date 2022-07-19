@@ -99,17 +99,17 @@
 (source: https://docs.google.com/spreadsheets/d/1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk/edit?usp=sharing)
 |score||
 |-|-
-|10|DayZ
-|5|CDDA
-|3|7DTD, Empyrion, STALKER + mods, Titan Quest
-|2|EFT
-|1|Diablo 2, Dwarf Fortress, Kenshi
-|0|Cryofall, Cyberpunk 2077, Terraria
-|-1|Diablo 3, Minecraft, Raft, Rimworld, Rust, STALKER: ShoC, Valheim
-|-2|Satisfactory, Starbound
-|-3|Dark Souls 2, PUBG
-|-5|Diablo 1
-|-10|Apex Legends
+|9|DayZ
+|4|CDDA
+|3|Empyrion, Kenshi
+|2|7DTD, Titan Quest
+|1|Dwarf Fortress, EFT
+|0|Cryofall, Cyberpunk 2077, TES 4, Terraria, Valheim
+|-1|Diablo 3, Minecraft, ROTMG, Raft, Rimworld
+|-2|Rust, Satisfactory, Starbound, TES 3
+|-3|STALKER: ShoC
+|-4|Diablo 1
+|-5|TES 5
 ---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
 (status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
@@ -197,7 +197,7 @@
 |-3|Bison wool, Foxfur
 ---
 ## Индекс обеспеченности разработчиков в российских городах (https://habr.com/ru/company/habr_career/blog/667408/)
-(На Школьном портале высрали статью на несколько страниц, где ПОДЕЛИЛИ зарплату на стоимость аренды.)
+(на Школьном портале высрали статью на несколько страниц, где ПОДЕЛИЛИ зарплату на стоимость аренды)
 |score||
 |-|-
 |7|Воронеж
