@@ -1,6 +1,9 @@
+## Different rankings made using PCBR for demo purposes
+
+See the resulting rankings here: https://nakilon.github.io/pcbr-demo/  
 This is for demo purposes of https://github.com/Nakilon/pcbr
 
-#### reminder for myself on how to update
+### reminder for myself on how to update
 
 Manually update .txt, optionally run:
   ```none
