@@ -1,0 +1,4 @@
+linkify: true
+disableLiquid: true
+# supportGithubAnchors: true
+lang: en

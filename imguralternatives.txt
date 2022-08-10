@@ -1,5 +1,5 @@
-Free image hosting services aka https://www.reddit.com/r/imguralternatives
-see also https://en.wikipedia.org/wiki/List_of_image-sharing_websites
+Free image hosting services
+aka /r/imguralternatives, see also https://en.wikipedia.org/wiki/List_of_image-sharing_websites
 max       max size (in MB)
 anon      max size for anonymous uploader
 compr     size after which the image gets compressed

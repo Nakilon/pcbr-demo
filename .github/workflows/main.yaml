@@ -1,16 +1,37 @@
 on:
+  workflow_dispatch:
   push:
     branches: [master]
-    paths-ignore: [README.md]
+    paths-ignore: [index.md]
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   main:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
-    - uses: actions/checkout@v2
-    - timeout-minutes: 1
-      run:
-        sudo gem install pcbr &&
-        ruby main.rb > README.md &&
+    - uses: actions/checkout@v3
+    - run:
+        sudo gem install pcbr && ruby main.rb &&
         git config --local user.email "$(git log --format='%ae' HEAD^!)" &&
         git config --local user.name "$(git log --format='%an' HEAD^!)" &&
-        git add README.md && git commit -m "[Github Action]" && git push
+        git add index.md
+      timeout-minutes: 1
+    - run:
+        git commit -m "[Github Action]" || true
+    - run:
+        git push && npm i @doc-tools/docs -g && yfm -i ./yfm -o ./out -s
+      timeout-minutes: 1
+    - uses: actions/configure-pages@v1
+    - uses: actions/upload-pages-artifact@v1
+      with:
+        path: ./out
+    - uses: actions/deploy-pages@main
+      id: deployment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}

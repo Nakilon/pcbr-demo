@@ -1,5 +1,5 @@
-Various hosted pastebin services (https://en.wikipedia.org/wiki/Pastebin)
-repls, buggy services, registration requiring and exclusive feature columns are excluded; most of the features should be available for guests unless specified
+Various hosted pastebin services
+repls, buggy services, registration requiring and exclusive feature columns are excluded; most of the features should be available for guests unless specified, see also https://en.wikipedia.org/wiki/Pastebin
 year       when the service appeared
 maxsize    paste file size limit
 raw        direct link to a raw content (or that looks like raw)

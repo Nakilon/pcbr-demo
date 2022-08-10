@@ -1,4 +1,5 @@
 /secret
 /credentials.json
 /token.yaml
-/textiles.html
+/out/
+/yfm/
