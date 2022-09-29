@@ -159,10 +159,9 @@
 |3|Foxfur, Lightleather
 |2|Bison wool, Lizardskin
 |1|Birdskin, Chinchilla fur
-|0|Camelhide, Cloth, Devilstrand, Elephant leather, Heavy fur, Human leather, Hyperweave, Panthera fur, Pigskin, Rhinoceros leather, Synthread, Thrumbofur
-|-1|Bearskin, Bluefur, Guinea pig fur, Muffalo wool, Wolfskin
-|-2|Alpaca wool
-|-3|Megasloth wool
+|0|Camelhide, Cloth, Devilstrand, Elephant leather, Heavy fur, Human leather, Hyperweave, Muffalo wool, Panthera fur, Pigskin, Rhinoceros leather, Synthread, Thrumbofur
+|-1|Bearskin, Bluefur, Guinea pig fur, Wolfskin
+|-3|Alpaca wool, Megasloth wool
 |-5|Dog leather
 |-7|Plainleather
 ---
@@ -177,11 +176,11 @@
 |2|Synthread
 |1|Birdskin, Devilstrand, Lightleather, Wolfskin
 |0|Elephant leather, Heavy fur, Hyperweave, Patchleather, Rhinoceros leather, Thrumbofur
-|-4|Alpaca wool, Guinea pig fur
-|-5|Foxfur, Megasloth wool
+|-4|Guinea pig fur
+|-5|Alpaca wool, Foxfur, Megasloth wool
 |-7|Bison wool
-|-10|Chinchilla fur
-|-11|Muffalo wool, Sheep wool
+|-10|Chinchilla fur, Muffalo wool
+|-11|Sheep wool
 ---
 ## Rimworld: best textiles for WINTER (https://rimworldwiki.com/wiki/Textiles)
 (not wasting good armor on furniture and vice versa)
@@ -190,10 +189,10 @@
 |4|Heavy fur, Megasloth wool
 |3|Wolfskin
 |2|Bluefur, Plainleather
-|1|Human leather, Muffalo wool, Pigskin, Sheep wool
-|0|Birdskin, Cloth, Devilstrand, Elephant leather, Guinea pig fur, Hyperweave, Lizardskin, Patchleather, Rhinoceros leather, Thrumbofur
-|-1|Bearskin, Dog leather, Panthera fur
-|-2|Alpaca wool, Camelhide, Chinchilla fur, Lightleather, Synthread
+|1|Human leather, Pigskin, Sheep wool
+|0|Birdskin, Cloth, Devilstrand, Elephant leather, Guinea pig fur, Hyperweave, Lizardskin, Muffalo wool, Patchleather, Rhinoceros leather, Thrumbofur
+|-1|Alpaca wool, Bearskin, Dog leather, Panthera fur
+|-2|Camelhide, Chinchilla fur, Lightleather, Synthread
 |-3|Bison wool, Foxfur
 ---
 ## Индекс обеспеченности разработчиков в российских городах
