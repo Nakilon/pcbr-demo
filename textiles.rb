@@ -1,31 +1,18 @@
 require "oga"
-html = Oga.parse_html File.read "textiles.html"
-all = html.css("tr").map do |tr|
-  (
-    tr.css("th").map(&:text).map do |td|
-      case td
-      when /\A[A-Z][a-z]+( -)?( [A-Z][a-z]+)*( \(°C\))?\z/ ; td.downcase.scan(/[a-z]+/).join("_")
-      else ; fail td
-      end
-    end
-  ) + (
-    tr.css("td").map(&:text).map do |td|
-      case td
-      when /\A[A-Z][a-z]+( [a-z]+){0,2}\z/ ; td
-      when /\A\d+(\.\d+)?\z/ ; (td.to_r * 100).round
-      else ; fail td
-      end
-    end
-  )
-end
+require "timeout"
+require "tablestructured"
+all = TableStructured.new Oga.parse_html File.read "textiles.html"
 
 [
   ["winter", %w{ + + - - }],
   ["summer", %w{ + - + - }],
   ["decor",  %w{ - - - + }],
 ].each do |purpose, signs|
-  array = all.map{ |row| row.values_at 0, 1, 4, 5, 8 }
-  array[0][0] = ""
+  keys = %i{ Armor\ -\ Sharp\ Factor Insulation\ -\ Cold\ (°C) Insulation\ -\ Heat\ (°C) Beauty\ Factor }
+  array = [
+    ["", *keys.map{ |_| _.to_s.downcase.scan(/[a-z]+/).join("_") }],
+    *all.map{ |row| [row.Textile.text, *row.to_h.values_at(*keys).map{ |_| (_.text.to_r * 100).round }] }
+  ]
   array.insert 1, ["", *signs]
   File.open("textiles_#{purpose}.txt", "w") do |file|
     file.puts "Rimworld: best textiles for #{purpose.upcase} (https://rimworldwiki.com/wiki/Textiles)"

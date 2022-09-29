@@ -5,11 +5,16 @@ This is for demo purposes of https://github.com/Nakilon/pcbr
 
 ### reminder for myself on how to update
 
-Manually update .txt, optionally run:
+Some `.txt` files are updated manually.  
+Some are updated programmatically:
   ```none
-  $ ruby loot.rb > loot.txt   # to import changes from the corresponding Google Spreadsheet
+  ## "The most developed loot management in video games"
+  # update the Google Spreadsheet
+  $ ruby loot.rb > loot.txt
   ```
   ```none
-  $ ruby textiles.rb          # to parse the corresponding DOM node html
+  ## Rimworld textiles
+  # copypaste the <table> from wiki to textiles.html
+  $ bundle install && bundle exec ruby textiles.rb
   ```
-Then GitHub Action will automatically compile the single-page `index.md`, YFM docs and deploy them as GitHub Pages.
+Then after you mush the txt changes GitHub Action will automatically compile the single-page `index.md`, YFM docs and deploy them as GitHub Pages.
