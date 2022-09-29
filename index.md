@@ -101,18 +101,17 @@
 |-|-
 |9|DayZ
 |4|CDDA
-|3|Empyrion, Kenshi
-|2|7DTD, Titan Quest
+|3|Empyrion
+|2|7DTD, Kenshi, Titan Quest
 |1|Dwarf Fortress, EFT
-|0|Cryofall, Cyberpunk 2077, TES 4, Terraria, Valheim
-|-1|Diablo 3, Minecraft, ROTMG, Raft, Rimworld
+|0|Cryofall, Cyberpunk 2077, TES 4, Terraria
+|-1|Diablo 3, Minecraft, ROTMG, Raft, Rimworld, Valheim
 |-2|Rust, Satisfactory, Starbound, TES 3
-|-3|STALKER: ShoC
+|-3|STALKER: ShoC, TES 5
 |-4|Diablo 1
-|-5|TES 5
 ---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
-(status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
+((probably outdated); status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
 |score||
 |-|-
 |34|cooked porkchop, steak
