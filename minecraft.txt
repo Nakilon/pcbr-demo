@@ -1,5 +1,5 @@
 Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
-status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food
+(probably outdated); status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food
                   food  sat   stack
                   +     +     +
 apple             4     2.4   64
