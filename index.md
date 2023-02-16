@@ -95,6 +95,14 @@
 |-2|vgy.me
 |-3|i.imghurr.com, imgopct.com
 ---
+## Во что инвестировать
+(source: https://www.tinkoff.ru/invest/education/courses/)
+|score||
+|-|-
+|1|акции
+|0|банковский вклад, биржевые фонды, драгоценные металлы, иностранная валюта, недвижимость, облигации
+|-1|альтернативные инвестиции
+---
 ## The most developed loot management in video games
 (source: https://docs.google.com/spreadsheets/d/1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk/edit?usp=sharing)
 |score||
