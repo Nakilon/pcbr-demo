@@ -1,0 +1,16 @@
+Во что инвестировать
+source: https://www.tinkoff.ru/invest/education/courses/
+risk                 степень риска
+profitability        доходность
+difficulty of choice сложность выбора
+liquidity            ликвидность
+                          risk profitability difficulty of choice liquidity
+                          -    +             -                    +
+недвижимость              3    2             4                    5
+иностранная валюта        2    1             1                    5
+банковский вклад          1    1             1                    3
+драгоценные металлы       3    2             1                    3
+альтернативные инвестиции 5    5             5                    2
+облигации                 2    2             2                    4
+акции                     4    5             4                    4
+биржевые фонды            3    3             2                    4

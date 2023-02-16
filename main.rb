@@ -4,8 +4,8 @@ index = {"links"=>[]}
 require "set"
 require "pcbr"
 File.write "index.md", ""
-Dir.glob("*.txt").sort.map do |filename|
-  fail unless /\A(?<title>.+)\n(?<description>.+)\n(\S.*\n)*( .+)\n(?<directions> .+)\n/ =~ File.read(filename)
+(Dir.glob("*.txt") - ["CATME.txt"]).sort.map do |filename|
+  fail filename unless /\A(?<title>.+)\n(?<description>.+)\n(\S.*\n)*( .+)\n(?<directions> .+)\n/ =~ File.read(filename)
   s = $'.split "\n"
   href = "#{File.basename filename, ".txt"}.md"
   File.open("yfm/#{href}", "w") do |current|
