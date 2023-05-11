@@ -1,0 +1,16 @@
+Лучшие наушники в Escape From Tarkov
+source: https://tarkov-database.com/item/headphone
+ambient Ambient Reduction
+cutoff  Cutoff Frequency
+clarity Clarity
+               ambient cutoff clarity
+               +       -      +
+ГСШ-01         1       175    67
+M32            2       170    70
+Tactical_Sport 3       120    69
+ComTac 2       5       245    72
+Razor          3       200    75
+RAC            6       100    86
+XCEL           4       180    80
+Sordin         5       120    84
+ComTac 4       8       120    90
