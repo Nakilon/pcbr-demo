@@ -83,6 +83,17 @@
 |-124|nakamichi
 |-145|ksc
 ---
+## Лучшие наушники в Escape From Tarkov
+(source: https://tarkov-database.com/item/headphone)
+|score||
+|-|-
+|7|ComTac 4, RAC
+|4|Sordin
+|-2|M32, Tactical_Sport, XCEL
+|-3|ComTac 2
+|-4|Razor
+|-5|ГСШ-01
+---
 ## Free image hosting services
 (aka /r/imguralternatives, see also https://en.wikipedia.org/wiki/List_of_image-sharing_websites)
 |score||
