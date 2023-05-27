@@ -1,26 +1,28 @@
-PATH
-  remote: ../tablestructured
-  specs:
-    tablestructured (0.3.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.8.4)
+      public_suffix (>= 2.0.2, < 6.0)
     ansi (1.5.0)
     ast (2.4.2)
+    nethttputils (0.4.4.0)
+      addressable
     oga (3.4)
       ast
       ruby-ll (~> 2.1)
+    public_suffix (4.0.7)
     ruby-ll (2.1.2)
       ansi
       ast
+    tablestructured (0.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  nethttputils
   oga
-  tablestructured!
+  tablestructured
 
 BUNDLED WITH
-   2.1.4
+   2.3.24

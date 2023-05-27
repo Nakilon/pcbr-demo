@@ -15,6 +15,10 @@ Some are updated programmatically:
   ```none
   ## Rimworld textiles
   # sort the <table> by name and copypaste from wiki to textiles.html
-  $ bundle install && bundle exec ruby textiles.rb
+  $ bundle exec ruby textiles.rb
   ```
-Then after you mush the txt changes GitHub Action will automatically compile the single-page `index.md`, YFM docs and deploy them as GitHub Pages.
+  ```none
+  ## LoL TFT champions
+  $ bundle exec ruby lol.rb
+  ```
+Then after you mush the .txt changes GitHub Action will automatically compile the single-page `index.md`, YFM docs and deploy them as GitHub Pages.
