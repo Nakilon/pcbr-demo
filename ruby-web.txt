@@ -1,0 +1,33 @@
+Ruby Web App Frameworks (https://www.ruby-toolbox.com/categories/web_app_frameworks)
+ranked by stars, forks and latest release date
+          stars forks latest_release
+          +     -     +             
+rails     52970 20368 20230524      
+rack      4679  1551  20230424      
+sinatra   11908 1961  20230411      
+hanami    6066  515   20230201      
+padrino   3349  494   20230225      
+roda      1957  138   20230511      
+cramp     1509  112   20140429      
+cuba      1428  102   20230219      
+pakyow    832   66    20200903      
+ramaze    372   36    20230116      
+rack-app  403   17    20221113      
+raptor    367   29    20110922      
+scorched  277   15    20230223      
+hobo      103   40    20160507      
+plezi     249   10    20190222      
+rango     219   7     20101003      
+goliath               20171015      
+harbor    25    5     20091122      
+merb-core             20100710      
+vanilla   4     2     20160705      
+camping               20230418      
+e         16    2     20130723      
+marley    9     3     20120403      
+strelka               20200428      
+nyny                  20141008      
+lattice               20131001      
+gin                   20140313      
+bats                  20150808      
+renee                 20120304      
