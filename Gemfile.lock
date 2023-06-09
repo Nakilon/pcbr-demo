@@ -10,11 +10,12 @@ GEM
     oga (3.4)
       ast
       ruby-ll (~> 2.1)
+    pcbr (0.5.0)
     public_suffix (4.0.7)
     ruby-ll (2.1.2)
       ansi
       ast
-    tablestructured (0.3.0)
+    tablestructured (0.4.0)
 
 PLATFORMS
   ruby
@@ -22,6 +23,7 @@ PLATFORMS
 DEPENDENCIES
   nethttputils
   oga
+  pcbr
   tablestructured
 
 BUNDLED WITH

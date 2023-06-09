@@ -3,10 +3,10 @@
 See the resulting rankings here: https://nakilon.github.io/pcbr-demo/  
 This is for demo purposes of https://github.com/Nakilon/pcbr
 
-### reminder for myself on how to update
+### (development note) How to update
 
-Some `.txt` files are updated manually.  
-Some are updated programmatically:
+Some `.txt` files in this repo are updated manually.  
+Some are updated programmatically:  
   ```none
   ## "The most developed loot management in video games"
   # update the Google Spreadsheet
@@ -21,4 +21,14 @@ Some are updated programmatically:
   ## LoL TFT champions
   $ bundle exec ruby lol.rb
   ```
-Then after you mush the .txt changes GitHub Action will automatically compile the single-page `index.md`, YFM docs and deploy them as GitHub Pages.
+  ```none
+  ## Ruby Web App Frameworks
+  $ bundle exec ruby ruby-web.rb
+  ```
+To preview the effect, according to `main.yaml` workflow:
+```none
+$ ruby main.rb
+$ yfm -i ./yfm -o ./out -s
+$ open ./out/....html
+```
+Then after you push the .txt changes GitHub Action will automatically compile the single-page `index.md`, YFM docs and deploy them as GitHub Pages.
