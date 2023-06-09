@@ -168,6 +168,29 @@
 |-4|pastie.org, vpaste.net
 |-8|paste.nginx.org
 ---
+## Ruby Web App Frameworks (https://www.ruby-toolbox.com/categories/web_app_frameworks)
+(ranked by stars, forks and latest release date)
+|score||
+|-|-
+|22|camping
+|9|rack, rack-app, rails, roda
+|8|ramaze, scorched
+|7|cuba, hanami, padrino, pakyow, sinatra
+|6|plezi
+|4|strelka
+|3|vanilla
+|0|goliath
+|-1|cramp, hobo
+|-4|e
+|-6|bats, marley
+|-7|rango
+|-8|nyny, raptor
+|-9|harbor
+|-12|gin
+|-14|lattice
+|-20|renee
+|-26|merb-core
+---
 ## Rimworld: best textiles for DECOR (https://rimworldwiki.com/wiki/Textiles)
 (not wasting good armor on furniture and vice versa)
 |score||
