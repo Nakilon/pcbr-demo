@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 gem "nethttputils"
 gem "oga"
-gem "tablestructured"
+gem "tablestructured", github: "nakilon/tablestructured"
 gem "pcbr"

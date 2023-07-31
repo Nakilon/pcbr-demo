@@ -1,5 +1,5 @@
 Rimworld: best textiles for SUMMER (https://rimworldwiki.com/wiki/Textiles)
-not wasting good armor on furniture and vice versa
+don't waste good armor material on furniture and vice versa
                    armor_sharp_factor insulation_cold_c insulation_heat_c beauty_factor
                    +                  -                 +                 -            
 Alpaca wool        36                 3000              1600              150          

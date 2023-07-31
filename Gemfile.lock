@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/nakilon/tablestructured.git
+  revision: e7c27f621298890755eff479c0547e312d3d19c7
+  specs:
+    tablestructured (0.4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -15,7 +21,6 @@ GEM
     ruby-ll (2.1.2)
       ansi
       ast
-    tablestructured (0.4.0)
 
 PLATFORMS
   ruby
@@ -24,7 +29,7 @@ DEPENDENCIES
   nethttputils
   oga
   pcbr
-  tablestructured
+  tablestructured!
 
 BUNDLED WITH
    2.3.24
