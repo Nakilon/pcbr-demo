@@ -192,7 +192,7 @@
 |-26|merb-core
 ---
 ## Rimworld: best textiles for DECOR (https://rimworldwiki.com/wiki/Textiles)
-(not wasting good armor on furniture and vice versa)
+(don't waste good armor material on furniture and vice versa)
 |score||
 |-|-
 |6|Patchleather
@@ -207,7 +207,7 @@
 |-7|Plainleather
 ---
 ## Rimworld: best textiles for SUMMER (https://rimworldwiki.com/wiki/Textiles)
-(not wasting good armor on furniture and vice versa)
+(don't waste good armor material on furniture and vice versa)
 |score||
 |-|-
 |9|Camelhide, Dog leather
@@ -224,7 +224,7 @@
 |-11|Sheep wool
 ---
 ## Rimworld: best textiles for WINTER (https://rimworldwiki.com/wiki/Textiles)
-(not wasting good armor on furniture and vice versa)
+(don't waste good armor material on furniture and vice versa)
 |score||
 |-|-
 |4|Heavy fur, Megasloth wool
