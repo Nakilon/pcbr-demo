@@ -27,7 +27,7 @@ jobs:
         git push && npm i @doc-tools/docs -g && yfm -i ./yfm -o ./out -s
       timeout-minutes: 1
     - uses: actions/configure-pages@v1
-    - uses: actions/upload-pages-artifact@v1
+    - uses: actions/upload-pages-artifact@v3
       with:
         path: ./out
     - uses: actions/deploy-pages@main
