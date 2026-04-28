@@ -10,7 +10,8 @@ Some are updated programmatically:
   ```none
   ## "The most developed loot management in video games"
   # update the Google Spreadsheet
-  $ ruby loot.rb > loot.txt
+  $ BUNDLE_GEMFILE=loot.Gemfile bundle install
+  $ BUNDLE_GEMFILE=loot.Gemfile bundle exec ruby loot.rb > loot.txt
   ```
   ```none
   ## Rimworld textiles

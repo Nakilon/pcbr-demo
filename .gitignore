@@ -1,5 +1,5 @@
 /secret
-/credentials.json
+/googleauth_credentials.json
 /token.yaml
 /out/
 /yfm/
