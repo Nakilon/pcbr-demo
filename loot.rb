@@ -30,8 +30,8 @@ fill_for_transpose = lambda do |array, x|
 end
 
 buttom_row = 27
-left_col = "O"
-right_col = "BB"
+left_col = "M"
+right_col = "AZ"
 spreadsheet_id = "1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk"
 array = [["", ""], *service.get_spreadsheet_values(spreadsheet_id, "Sheet1!A2:A#{buttom_row}").values.map{ |_,| [_.tr(" ", "_"), "+"] }].transpose +
   service.get_spreadsheet_values(spreadsheet_id, "Sheet1!#{left_col}1:#{right_col}1").values[0].zip(
