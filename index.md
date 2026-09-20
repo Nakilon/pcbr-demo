@@ -118,15 +118,19 @@
 (source: https://docs.google.com/spreadsheets/d/1M9RLV79rnU_YXa4ealRdFDLqI0SNCn8E8UWgsto1nUk/edit?usp=sharing)
 |score||
 |-|-
-|8|DayZ
-|4|CDDA, Empyrion
-|2|7DTD, EFD
-|1|Cryofall, Dwarf Fortress, EFT, Kenshi
-|0|Minecraft, Noita, Terraria, Titan Quest
-|-1|ROTMG, Raft, Starbound, Valheim
-|-2|Rimworld, Rust, Satisfactory
+|12|DayZ
+|6|Empyrion
+|5|Cryofall
+|4|CDDA, EFD, Kenshi
+|3|7DTD, EFT, Minecraft
+|2|Noita, Titan Quest, Valheim
+|1|Dwarf Fortress, Raft, Rust, Starbound, Terraria
+|-1|ROTMG
+|-2|Rimworld
 |-3|TES 3, TES 5
 |-4|Fortnite StW, STALKER: ShoC
+|-6|Satisfactory
+|-16|Fortnite BR, TESO
 ---
 ## Minecraft (Java Edition) food considering "food", "saturation" and "stack size" properties at the same time
 ((probably outdated); status effects are not considered because they are very different; source: https://minecraft.gamepedia.com/Food)
